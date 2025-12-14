@@ -8,7 +8,7 @@ app.get('/', (_, res) => res.send('WS server OK'));
 const server = http.createServer(app);
 
 // 원하는 전송 주기 설정
-const time = 700;
+const time = 1000;
 
 const labels = ["Speech", "Dog", "Bark", "Vehicle", "Vehicle horn", "Siren", "Explosion"];
 const types = ["detection"];
